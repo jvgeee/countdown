@@ -3,23 +3,31 @@
 <style type="text/css">
 
 #time{
-	font-size:106px;
+	font-size:246px;
 	font-weight:bold;
+	font-family: helvetica, arial, sans-serif;
 	display:none;
+}
+
+#container {
+	width:75%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:8em;
 }
 
 </style>
 
 </head>
 <body>
-
-<form>
-	<input id="theTime"></input>
-	<button id="submit">DO IT!</button>
-</form>
-<div id="countDown">
-	<span id="time">0:00</span>
-</div>
-
+<section id="container">
+	<form>
+		<input id="theTime" placeholder="Enter a time in minutes" ></input>
+		<button id="submit">COUNT DOWN!</button>
+	</form>
+	<div id="countDown">
+		<span id="time">0:00</span>
+	</div>
+</section>
 <script src="countdown.js"></script>
 </body>
