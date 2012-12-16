@@ -60,7 +60,7 @@ function theCount(){
 }
 
 document.getElementById("submit").onclick = function(){
-	
+	time.style.color = "#000000";	
 	countFrom = theTime.value;
 	if (isNaN(countFrom)){
 		alert("You didn't enter a number!");
@@ -79,7 +79,7 @@ document.getElementById("submit").onclick = function(){
 	submit.style.display = "none";
 	theTime.style.display = "none";
 	time.style.display = "block";
-	time.style.color = "#000000";	
+	
 
 		
 	return false;
