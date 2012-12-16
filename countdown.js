@@ -14,7 +14,7 @@ function resetPage(){
 	submit.innerHTML = "DO IT AGAIN!";
 	theTime.style.display = "inline-block";
 	theTime.value = "";
-	time.innerHTML = "0:00";	
+	time.innerHTML = "0:00";
 }
 
 function changeColour(){
@@ -79,6 +79,7 @@ document.getElementById("submit").onclick = function(){
 	submit.style.display = "none";
 	theTime.style.display = "none";
 	time.style.display = "block";
+	time.style.color = "#000000";	
 
 		
 	return false;
